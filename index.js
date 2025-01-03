@@ -5,6 +5,7 @@ var app = express();
 var port = normalizePort(process.env.PORT || "3000");
 var debug = require('debug')('demo:server');
 var http = require('http');
+var serverless = require("serverless-http");
 
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
