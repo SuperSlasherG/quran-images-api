@@ -8,15 +8,15 @@
   ],
   "routes": [
     {
-      "src": "/api/page/(.*)",
+      "src": "/page/(.*)",
       "dest": "/index.js"
     },
     {
-      "src": "/api/show/page/(.*)",
+      "src": "/show/page/(.*)",
       "dest": "/index.js"
     },
     {
-      "src": "/api/download/page/(.*)",
+      "src": "/download/page/(.*)",
       "dest": "/index.js"
     },
     {
