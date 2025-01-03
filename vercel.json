@@ -9,15 +9,15 @@
   "routes": [
     {
       "src": "/page/(.*)",
-      "dest": "/index.js"
+      "dest": "/routes.js"
     },
     {
       "src": "/show/page/(.*)",
-      "dest": "/index.js"
+      "dest": "/routes.js"
     },
     {
       "src": "/download/page/(.*)",
-      "dest": "/index.js"
+      "dest": "/routes.js"
     },
     {
       "src": "/(.*)",
